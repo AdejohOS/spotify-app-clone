@@ -23,7 +23,8 @@ const SidebarItem = ({icon: Icon, label, active, href}: SidebarItemProps) => {
                         active && 'text-white'
         )}
     >
-        Hello
+        <Icon size={26}/>
+        <p className='truncate w-full'>{label}</p>
     </Link>
   )
 }
